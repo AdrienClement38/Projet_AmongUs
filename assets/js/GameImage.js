@@ -1,3 +1,4 @@
+import Lobby from "../levels/lobby/lobby.js";
 export default class GameImage {
     constructor(src, x = 0, y = 0, width = 0, height = 0) {
         this.image = new Image();

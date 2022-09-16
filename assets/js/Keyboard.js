@@ -1,7 +1,6 @@
 export default class Keyboard {
     constructor() {
         this.touchPressed = [];
-        this.listen();
     }
 
     listen() {
